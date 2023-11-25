@@ -1,0 +1,6 @@
+id: 2
+name: magde
+phone: 01024708096
+email: magde@gmail.com
+password: 654
+reigon: Maasra

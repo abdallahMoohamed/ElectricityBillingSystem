@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="625.0" prefWidth="685.0" style="-fx-background-color: #faedf0;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="625.0" prefWidth="685.0">
+         <center>
+            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox prefHeight="175.0" prefWidth="685.0">
+                     <children>
+                        <JFXButton buttonType="RAISED" prefHeight="52.0" prefWidth="118.0" ripplerFill="#161853" style="-fx-background-radius: 10; -fx-background-color: #236299;" text="Add" textFill="#e4d7d7">
+                           <font>
+                              <Font name="Wingdings" size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets bottom="30.0" left="200.0" right="80.0" top="60.0" />
+                           </HBox.margin>
+                        </JFXButton>
+                        <ImageView fitHeight="75.0" fitWidth="92.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Needs/add.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets top="50.0" />
+                           </HBox.margin>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="163.0" prefWidth="685.0">
+                     <children>
+                        <JFXButton buttonType="RAISED" prefHeight="52.0" prefWidth="118.0" ripplerFill="#161852" style="-fx-background-radius: 10; -fx-background-color: #236299;" text="Update" textFill="#e4d7d7">
+                           <font>
+                              <Font name="Wingdings" size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets bottom="30.0" left="200.0" right="80.0" top="30.0" />
+                           </HBox.margin>
+                        </JFXButton>
+                        <ImageView fitHeight="59.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Needs/profile.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets top="30.0" />
+                           </HBox.margin>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="146.0" prefWidth="685.0">
+                     <children>
+                        <JFXButton buttonType="RAISED" prefHeight="52.0" prefWidth="118.0" ripplerFill="#161853" style="-fx-background-radius: 10; -fx-background-color: #236299;" text="Delete" textFill="#e4d7d7">
+                           <font>
+                              <Font name="Wingdings" size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets bottom="20.0" left="200.0" right="80.0" top="20.0" />
+                           </HBox.margin>
+                        </JFXButton>
+                        <ImageView fitHeight="73.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Needs/delete.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets top="20.0" />
+                           </HBox.margin>
+                        </ImageView>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="122.0" prefWidth="685.0">
+                     <children>
+                        <JFXButton buttonType="RAISED" prefHeight="52.0" prefWidth="118.0" ripplerFill="#161852" style="-fx-background-radius: 10; -fx-background-color: #236299;" text="Search" textFill="#e4d7d7">
+                           <font>
+                              <Font name="Wingdings" size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets bottom="20.0" left="200.0" right="80.0" top="10.0" />
+                           </HBox.margin>
+                        </JFXButton>
+                        <ImageView fitHeight="72.0" fitWidth="84.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Needs/searching.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </ImageView>
+                        <JFXButton buttonType="RAISED" prefHeight="52.0" prefWidth="118.0" ripplerFill="#161852" style="-fx-background-radius: 10; -fx-background-color: #236299;" text="Back" textFill="#e4d7d7">
+                           <font>
+                              <Font name="Wingdings" size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets bottom="20.0" left="80.0" top="50.0" />
+                           </HBox.margin>
+                        </JFXButton>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

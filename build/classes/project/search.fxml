@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.SearchController">
+   <children>
+      <BorderPane prefHeight="643.0" prefWidth="686.0">
+         <center>
+            <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox prefHeight="74.0" prefWidth="686.0">
+                     <children>
+                        <TextField fx:id="search2" prefHeight="41.0" prefWidth="468.0" promptText="Search Here" style="-fx-background-radius: 25;">
+                           <HBox.margin>
+                              <Insets left="20.0" top="20.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </TextField>
+                        <JFXButton buttonType="RAISED" prefHeight="50.0" prefWidth="126.0" ripplerFill="#0a4296" style="-fx-background-color: #161853; -fx-background-radius: 20;" text="search" textFill="#efeaea">
+                           <font>
+                              <Font name="Wingdings" size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="20.0" top="15.0" />
+                           </HBox.margin>
+                        </JFXButton>
+                     </children>
+                  </HBox>
+                  <Label layoutX="42.0" layoutY="101.0" prefHeight="24.0" prefWidth="630.0" text="metercode :" textFill="#0b5999">
+                     <font>
+                        <Font name="Wingdings" size="24.0" />
+                     </font>
+                     <padding>
+                        <Insets top="30.0" />
+                     </padding>
+                  </Label>
+                  <Label layoutX="42.0" layoutY="157.0" prefHeight="24.0" prefWidth="630.0" text="name :" textFill="#0b5999">
+                     <font>
+                        <Font name="Wingdings" size="24.0" />
+                     </font>
+                     <padding>
+                        <Insets top="30.0" />
+                     </padding>
+                  </Label>
+                  <Label layoutX="42.0" layoutY="220.0" prefHeight="24.0" prefWidth="630.0" text="email:" textFill="#0b5999">
+                     <font>
+                        <Font name="Wingdings" size="24.0" />
+                     </font>
+                     <padding>
+                        <Insets top="30.0" />
+                     </padding>
+                  </Label>
+                  <Label layoutX="42.0" layoutY="284.0" prefHeight="24.0" prefWidth="630.0" text="password :" textFill="#0b5999">
+                     <font>
+                        <Font name="Wingdings" size="24.0" />
+                     </font>
+                     <padding>
+                        <Insets top="30.0" />
+                     </padding>
+                  </Label>
+                  <Label layoutX="42.0" layoutY="345.0" prefHeight="24.0" prefWidth="630.0" text="phone :" textFill="#0b5999">
+                     <font>
+                        <Font name="Wingdings" size="24.0" />
+                     </font>
+                     <padding>
+                        <Insets top="30.0" />
+                     </padding>
+                  </Label>
+                  <Label layoutX="42.0" layoutY="406.0" prefHeight="24.0" prefWidth="630.0" text="reigon :" textFill="#0b5999">
+                     <font>
+                        <Font name="Wingdings" size="24.0" />
+                     </font>
+                     <padding>
+                        <Insets top="30.0" />
+                     </padding>
+                  </Label>
+                  <Label layoutX="42.0" layoutY="464.0" prefHeight="24.0" prefWidth="630.0" text="adderss :" textFill="#0b5999">
+                     <font>
+                        <Font name="Wingdings" size="24.0" />
+                     </font>
+                     <padding>
+                        <Insets top="30.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </Pane>
+         </center></BorderPane>
+   </children>
+</AnchorPane>

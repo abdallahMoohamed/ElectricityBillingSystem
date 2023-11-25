@@ -1,0 +1,12 @@
+name: ali
+phone: 0123
+email: b@yahoo.com
+password: 123
+reigon: Helwan
+adderss: fs
+dateMonth1: 12
+dateYear1: 2021
+readingMeter1: 120
+consumption1: 120
+billing1: 98.4000015258789
+check1: true

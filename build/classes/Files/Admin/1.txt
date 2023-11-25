@@ -1,0 +1,4 @@
+name: shora
+phone: 011
+email: a@yahoo.con
+password: 222

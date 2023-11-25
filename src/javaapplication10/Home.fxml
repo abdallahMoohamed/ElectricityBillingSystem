@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="643.0" prefWidth="825.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaapplication10.HomeController">
+   <children>
+      <BorderPane fx:id="mainPane" prefHeight="643.0" prefWidth="838.0">
+         <left>
+            <VBox prefHeight="667.0" prefWidth="232.0" style="-fx-background-color: #292C6D;" BorderPane.alignment="CENTER">
+               <children>
+                  <JFXButton buttonType="RAISED" prefWidth="200.0" ripplerFill="#287eeb" style="-fx-background-radius: 10; -fx-background-color: #161853;" text="Home" textFill="#faedf0">
+                     <font>
+                        <Font name="Wingdings" size="20.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="40.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="13.0" top="13.0" />
+                     </padding>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" onAction="#profile" prefWidth="200.0" ripplerFill="#2a81eb" style="-fx-background-radius: 10; -fx-background-color: #161853;" text="Profile" textFill="#faedf0">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="13.0" top="13.0" />
+                     </padding>
+                     <font>
+                        <Font name="Wingdings" size="20.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" prefWidth="200.0" ripplerFill="#2a81eb" style="-fx-background-radius: 10; -fx-background-color: #161853;" text="Customer" textFill="#faedf0">
+                     <font>
+                        <Font name="Wingdings" size="20.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="13.0" top="13.0" />
+                     </padding>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" onAction="#operator" prefWidth="200.0" ripplerFill="#2a81eb" style="-fx-background-radius: 10; -fx-background-color: #161853;" text="Operator" textFill="#faedf0">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="13.0" top="13.0" />
+                     </padding>
+                     <font>
+                        <Font name="Wingdings" size="20.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" prefWidth="200.0" ripplerFill="#2a84eb" style="-fx-background-radius: 10; -fx-background-color: #161853;" text="View All Bills" textFill="#faedf0">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="13.0" top="13.0" />
+                     </padding>
+                     <font>
+                        <Font name="Wingdings" size="20.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" prefWidth="200.0" ripplerFill="#2a81eb" style="-fx-background-radius: 10; -fx-background-color: #161853;" text="View Total Money" textFill="#faedf0">
+                     <font>
+                        <Font name="Wingdings" size="20.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="13.0" top="13.0" />
+                     </padding>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" onAction="#logout" prefHeight="26.0" prefWidth="212.0" ripplerFill="#faedf0" style="-fx-background-radius: 10; -fx-background-color: EC255A;" text="Logout" textFill="#faedf0">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="140.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="13.0" top="13.0" />
+                     </padding>
+                     <font>
+                        <Font name="Wingdings" size="20.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </VBox>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>

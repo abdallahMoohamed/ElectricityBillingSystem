@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="643.0" prefWidth="685.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.EditCustomerAdminController">
+   <children>
+      <BorderPane fx:id="mainpane" prefHeight="643.0" prefWidth="685.0">
+         <center>
+            <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <JFXButton buttonType="RAISED" layoutX="276.0" layoutY="96.0" prefHeight="55.0" prefWidth="107.0" ripplerFill="#161853" style="-fx-background-color: #236299; -fx-background-radius: 10;" text="ADD" textFill="#fffbfb">
+                     <font>
+                        <Font name="Wingdings" size="20.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" layoutX="276.0" layoutY="231.0" onAction="#updatabtn" prefHeight="55.0" prefWidth="107.0" ripplerFill="#161853" style="-fx-background-color: #236299; -fx-background-radius: 10;" text="UPDATE" textFill="#fffbfb">
+                     <font>
+                        <Font name="Wingdings" size="20.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton buttonType="RAISED" layoutX="276.0" layoutY="366.0" prefHeight="55.0" prefWidth="107.0" ripplerFill="#161853" style="-fx-background-color: #236299; -fx-background-radius: 10;" text="SEARCH" textFill="#fffbfb">
+                     <font>
+                        <Font name="Wingdings" size="20.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </Pane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

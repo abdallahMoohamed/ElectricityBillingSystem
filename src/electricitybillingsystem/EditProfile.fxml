@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="EditPane" prefHeight="643.0" prefWidth="685.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="electricitybillingsystem.EditProfileController">
+   <children>
+      <HBox layoutX="-1.0" layoutY="-1.0" prefHeight="643.0" prefWidth="685.0">
+         <children>
+            <VBox prefHeight="643.0" prefWidth="426.0">
+               <children>
+                  <HBox prefHeight="48.0" prefWidth="421.0">
+                     <VBox.margin>
+                        <Insets top="40.0" />
+                     </VBox.margin>
+                     <children>
+                        <Label prefWidth="88.0" text="Name " textFill="#292c6d">
+                           <font>
+                              <Font name="Wingdings" size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="30.0" right="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField fx:id="updateName" prefHeight="26.0" prefWidth="290.0" promptText="Enter Your Name" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: #292c6d;">
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <font>
+                              <Font name="Wingdings" size="20.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" top="20.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="20.0" prefWidth="421.0">
+                     <VBox.margin>
+                        <Insets top="6.0" />
+                     </VBox.margin>
+                     <children>
+                        <Label prefWidth="88.0" text="Phone" textFill="#292c6d">
+                           <font>
+                              <Font name="Wingdings" size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="30.0" right="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField fx:id="updatePhone" prefHeight="26.0" prefWidth="290.0" promptText="+20 (567) 1234" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: #292c6d;">
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="Wingdings" size="20.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" top="20.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="22.0" prefWidth="421.0">
+                     <VBox.margin>
+                        <Insets top="6.0" />
+                     </VBox.margin>
+                     <children>
+                        <Label prefHeight="27.0" prefWidth="88.0" text="E_mail" textFill="#292c6d">
+                           <font>
+                              <Font name="Wingdings" size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="30.0" right="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField fx:id="updateEmail" prefHeight="26.0" prefWidth="290.0" promptText="\@gmail.com" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: #292c6d;">
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="Wingdings" size="20.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" top="20.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="32.0" prefWidth="421.0">
+                     <VBox.margin>
+                        <Insets top="6.0" />
+                     </VBox.margin>
+                     <children>
+                        <Label prefHeight="27.0" prefWidth="88.0" text="Password" textFill="#292c6d">
+                           <font>
+                              <Font name="Wingdings" size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="30.0" right="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <PasswordField fx:id="updatePassword" prefHeight="26.0" prefWidth="290.0" promptText="*** *** *** " style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: #292c6d;">
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </PasswordField>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" top="20.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="19.0" prefWidth="421.0">
+                     <VBox.margin>
+                        <Insets top="6.0" />
+                     </VBox.margin>
+                     <children>
+                        <Label prefWidth="88.0" text="Adderss" textFill="#292c6d">
+                           <font>
+                              <Font name="Wingdings" size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="30.0" right="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField fx:id="updateAdderss" prefHeight="26.0" prefWidth="290.0" promptText="Enter Your Current Adderss" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: #292c6d;">
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="Wingdings" size="20.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                     <padding>
+                        <Insets bottom="10.0" top="20.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label text="Reigon" textFill="#292c6d">
+                           <font>
+                              <Font name="Wingdings" size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="30.0" top="30.0" />
+                           </HBox.margin>
+                        </Label>
+                        <ChoiceBox fx:id="reigonChoiceBox" prefHeight="41.0" prefWidth="288.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: #292c6d;">
+                           <HBox.margin>
+                              <Insets left="42.0" top="28.0" />
+                           </HBox.margin>
+                        </ChoiceBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox prefHeight="643.0" prefWidth="271.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/edit.png" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="60.0" top="70.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <JFXButton buttonType="RAISED" onAction="#updating" prefWidth="200.0" style="-fx-background-color: #292c6d; -fx-background-radius: 8;" text="Save" textFill="#e1e1e1">
+                     <VBox.margin>
+                        <Insets left="40.0" top="40.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="13.0" top="13.0" />
+                     </padding>
+                     <font>
+                        <Font name="Wingdings" size="20.0" />
+                     </font>
+                     <ripplerFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.8736842274665833" green="0.30093568563461304" blue="0.835500955581665" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="0.8245614171028137" green="0.45614033937454224" blue="0.9473684430122375" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </ripplerFill>
+                  </JFXButton>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

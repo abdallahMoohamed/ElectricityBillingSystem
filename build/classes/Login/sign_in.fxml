@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Sign_inController">
+   <children>
+      <BorderPane fx:id="mainPane" prefHeight="500.0" prefWidth="690.0">
+         <center>
+            <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="690.0" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="345.0" style="-fx-background-color: #2574a9;" HBox.hgrow="ALWAYS">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@imegs/refer.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="Welcome to EBS app" textFill="WHITE">
+                           <font>
+                              <Font name="Wingdings" size="30.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets top="-30.0" />
+                     </padding>
+                  </VBox>
+                  <VBox alignment="TOP_RIGHT" prefHeight="200.0" prefWidth="345.0" style="-fx-background-color: #ffff;" HBox.hgrow="ALWAYS">
+                     <children>
+                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Label contentDisplay="CENTER" text="Sign " textFill="#028dff">
+                                 <font>
+                                    <Font name="System Bold" size="69.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets left="30.0" />
+                                 </padding>
+                              </Label>
+                              <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@imegs/icons8-linkedin-circled.gif" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="100.0" prefWidth="200.0" />
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <GridPane prefHeight="89.0" prefWidth="345.0">
+                                 <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="167.66668701171875" minWidth="10.0" prefWidth="108.3333969116211" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="237.6666030883789" minWidth="10.0" prefWidth="237.6666030883789" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints maxHeight="50.33335367838542" minHeight="10.0" prefHeight="47.66666666666667" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="62.0" minHeight="6.0" prefHeight="52.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="62.0" minHeight="10.0" prefHeight="52.0" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                                 <children>
+                                    <Label fx:id="myuser" prefHeight="24.0" prefWidth="114.0" text="Email: " textFill="#028dff">
+                                       <font>
+                                          <Font name="Wingdings" size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <PasswordField fx:id="pass_Field" promptText="*** *** ***" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Wingdings" size="17.0" />
+                                       </font>
+                                    </PasswordField>
+                                    <Label text="Password:" textFill="#028dff" GridPane.rowIndex="1">
+                                       <font>
+                                          <Font name="Wingdings" size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="email_filed" promptText="enter email" GridPane.columnIndex="1">
+                                       <font>
+                                          <Font name="Wingdings" size="17.0" />
+                                       </font>
+                                    </TextField>
+                                    <Label fx:id="mytype" text="Type:" textFill="#028dff" GridPane.rowIndex="2">
+                                       <font>
+                                          <Font name="Wingdings" size="17.0" />
+                                       </font>
+                                    </Label>
+                                    <ChoiceBox fx:id="choice_type" prefHeight="25.0" prefWidth="231.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                 </children>
+                                 <padding>
+                                    <Insets right="5.0" />
+                                 </padding>
+                              </GridPane>
+                           </children>
+                           <padding>
+                              <Insets left="10.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Button fx:id="mysign_in" alignment="TOP_CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#sign_in_Action" styleClass="button1" stylesheets="@css/fullpackstyling.css" text="sign in" textFill="WHITE">
+                                 <font>
+                                    <Font name="Wingdings" size="17.0" />
+                                 </font>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </Button>
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </HBox>
+                        <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
+                           <children>
+                              <Button fx:id="button_create" alignment="BOTTOM_CENTER" mnemonicParsing="false" onAction="#sign_up_Action" prefHeight="37.0" prefWidth="242.0" styleClass="button1" stylesheets="@css/fullpackstyling.css" text="create a new account" textFill="WHITE">
+                                 <font>
+                                    <Font name="Wingdings" size="17.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+               </children>
+            </HBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
